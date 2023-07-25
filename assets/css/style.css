@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
   line-height: 1.5;
   font-size: 17.6px;
   width: 100%;
-  min-width: 300px;
+  min-width: 250px;
 }
 
 header {
@@ -25,14 +26,11 @@ header {
   color: #fff;
 }
 
-header h1 {
-  padding: 0 30px 20px;
-}
-
-header p {
-  margin: 0 auto;
-  padding: 0 30px 20px;
+header h1,
+p {
+  padding: 0 22px 35px;
   max-width: 900px;
+  margin: 0 auto;
 }
 
 header a {
@@ -40,28 +38,24 @@ header a {
 }
 
 .button {
+  display: inline-block;
   color: #ffffff;
   background-color: #333333;
-  display: inline-block;
-  margin: 8.8px 0px;
   padding: 17.6px 35.2px;
-  font-size: 17.6px;
   border: 1px solid #666;
-  text-decoration: none;
 }
 
 .button:hover {
   background: #eaeaea;
   color: #333;
 }
-
 #offers {
   background: #333;
   padding: 35.2px 17.6px 17.6px;
 }
 
 .development {
-  padding: 0 1.5em;
+  padding: 0 24px;
 }
 
 .development h2 {
@@ -73,12 +67,11 @@ header a {
   max-width: 400px;
   padding: 0 0 35.2px;
 }
-
 .content-wrapper {
   display: inline-block;
   width: 272.8px;
   background: #fff;
-  margin: 0 8px 20px;
+  margin: 0 10px 20px;
 }
 
 img {
@@ -86,25 +79,30 @@ img {
   width: 272.8px;
 }
 
+.inside-block {
+  padding: 26.4px;
+}
+
 .content-wrapper h3 {
-  margin: 50px 0;
+  padding: 20.59px 0 20.59px;
 }
 
 .content-wrapper p {
-  padding: 0 25px 50px 25px;
+  padding: 17.6px 0 17.6px;
 }
 
 .responsibility {
   display: inline-block;
+  padding: 35.2px;
 }
 
 .responsibility h2 {
-  margin: 50px 0;
+  padding: 26.4px;
 }
 
 .responsibility p {
   max-width: 950px;
-  padding: 0 30px 40px 30px;
+  padding: 17.6px;
 }
 
 .contacts-about {
@@ -118,21 +116,23 @@ img {
   font-size: 17.6px;
   background: #2690d4;
   color: #fff;
-  padding: 50px 20px 50px 20px;
+  padding: 49px 0 49px;
 }
 
 .child2 {
   background: #333;
 }
 
-.child1 h2,
-.child1 p {
-  padding: 15px 0 30px 0;
+.child1 p,
+.contacts-about a,
+.child2 p {
+  padding: 17.6px;
+  color: #fff;
 }
 
-.contacts-about a {
-  color: #fff;
-  text-decoration: none;
+.child1 h2,
+.child2 h2 {
+  padding: 26.4px;
 }
 
 /*Footer*/
@@ -148,7 +148,7 @@ img {
   display: inline-block;
   width: calc(100% / 2);
   font-size: 17.6px;
-  padding: 2em;
+  padding: 35.2px;
 }
 
 .links-child2 a {
